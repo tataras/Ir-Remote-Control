@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tatara.com.irremotecontrol.BacklightControlActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/brighter_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="brighter"
+                android:text="+"/>
+
+            <Button
+                android:id="@+id/darker_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="darker"
+                android:text="-"/>
+
+            <Button
+                android:id="@+id/off_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/off"
+                android:onClick="switchOff"/>
+
+            <Button
+                android:id="@+id/on_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/on"
+                android:onClick="switchOn"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/r_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r"
+                android:onClick="setColorRed"/>
+
+            <Button
+                android:id="@+id/g_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/g"
+                android:onClick="setColorGreen"/>
+
+            <Button
+                android:id="@+id/b_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b"
+                android:onClick="setColorBlue"/>
+
+            <Button
+                android:id="@+id/w_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/w"
+                android:onClick="setColorWhite"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/r1_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r1"
+                android:onClick="setColorRed1"/>
+
+            <Button
+                android:id="@+id/g1_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/g1"
+                android:onClick="setColorGreen1"/>
+
+            <Button
+                android:id="@+id/b1_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b1"
+                android:onClick="setColorBlue1"/>
+
+            <Button
+                android:id="@+id/flash_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flash"
+                android:onClick="flash"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/r2_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r2"
+                android:onClick="setColorRed2"/>
+
+            <Button
+                android:id="@+id/g2_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/g2"
+                android:onClick="setColorGreen2"/>
+
+            <Button
+                android:id="@+id/b2_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b2"
+                android:onClick="setColorBlue2"/>
+
+            <Button
+                android:id="@+id/strobe_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strobe"
+                android:onClick="strobe"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/r3_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r3"
+                android:onClick="setColorRed3"/>
+
+            <Button
+                android:id="@+id/g3_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/g3"
+                android:onClick="setColorGreen3"/>
+
+            <Button
+                android:id="@+id/b3_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b3"
+                android:onClick="setColorBlue3"/>
+
+            <Button
+                android:id="@+id/fade_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fade"
+                android:onClick="fade"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/r4_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/r4"
+                android:onClick="setColorRed4"/>
+
+            <Button
+                android:id="@+id/g4_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/g4"
+                android:onClick="setColorGreen4"/>
+
+            <Button
+                android:id="@+id/b4_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b4"
+                android:onClick="setColorBlue4"/>
+
+            <Button
+                android:id="@+id/smooth_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/smooth"
+                android:onClick="smooth"/>
+
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>

@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Ir Remote Control</string>
+
+    <string name="backlight_control">Backlight Control</string>
+
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="r">R</string>
+    <string name="r1">R1</string>
+    <string name="r2">R2</string>
+    <string name="r3">R3</string>
+    <string name="r4">R4</string>
+
+    <string name="g">G</string>
+    <string name="g1">G1</string>
+    <string name="g2">G2</string>
+    <string name="g3">G3</string>
+    <string name="g4">G4</string>
+
+    <string name="b">B</string>
+    <string name="b1">B1</string>
+    <string name="b2">B2</string>
+    <string name="b3">B3</string>
+    <string name="b4">B4</string>
+
+    <string name="w">W</string>
+
+    <string name="flash">FLASH</string>
+    <string name="strobe">STROBE</string>
+    <string name="fade">FADE</string>
+    <string name="smooth">SMOOTH</string>
 </resources>
